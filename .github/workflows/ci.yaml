@@ -4,12 +4,12 @@ on:
   push:
 
 jobs:
-  tests:
+  test:
     runs-on: ubuntu-latest
     container:
       image: maven:3.9.5-eclipse-temurin-21
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Ran tests
-        run: mvn clean tests
+        run: mvn clean test
