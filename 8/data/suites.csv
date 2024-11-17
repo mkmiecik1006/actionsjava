@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Nov 17 13:57:50 GMT 2024","Sun Nov 17 13:57:53 GMT 2024","2819","","it.cantest.JsonPlaceholderTest","","it.cantest.JsonPlaceholderTest","verifyUsersEndpoint","verifyUsersEndpoint()",""
+"passed","Sun Nov 17 13:57:53 GMT 2024","Sun Nov 17 13:57:54 GMT 2024","109","","it.cantest.JsonPlaceholderTest","","it.cantest.JsonPlaceholderTest","verifyAlbumsEndpoint","verifyAlbumsEndpoint()",""
+"passed","Sun Nov 17 13:57:54 GMT 2024","Sun Nov 17 13:57:54 GMT 2024","109","","it.cantest.JsonPlaceholderTest","","it.cantest.JsonPlaceholderTest","verifyTodosEndpoint","verifyTodosEndpoint()",""
+"passed","Sun Nov 17 13:57:53 GMT 2024","Sun Nov 17 13:57:53 GMT 2024","114","","it.cantest.JsonPlaceholderTest","","it.cantest.JsonPlaceholderTest","verifyPostsEndpoint","verifyPostsEndpoint()",""
+"passed","Sun Nov 17 13:57:54 GMT 2024","Sun Nov 17 13:57:54 GMT 2024","115","","it.cantest.JsonPlaceholderTest","","it.cantest.JsonPlaceholderTest","verifyPhotosEndpoint","verifyPhotosEndpoint()",""
+"passed","Sun Nov 17 13:57:54 GMT 2024","Sun Nov 17 13:57:54 GMT 2024","344","","it.cantest.JsonPlaceholderTest","","it.cantest.JsonPlaceholderTest","verifyCommentsEndpoint","verifyCommentsEndpoint()",""
