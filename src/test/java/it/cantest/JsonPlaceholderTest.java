@@ -1,10 +1,11 @@
 package it.cantest;
-
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
+
 
 public class JsonPlaceholderTest {
 
@@ -16,6 +17,7 @@ public class JsonPlaceholderTest {
     @Test
     public void verifyPostsEndpoint() {
         given()
+                .filter(new AllureRestAssured())
                 .when()
                 .get("/posts/1")
                 .then()
@@ -29,6 +31,7 @@ public class JsonPlaceholderTest {
     @Test
     public void verifyCommentsEndpoint() {
         given()
+                .filter(new AllureRestAssured())
                 .when()
                 .get("/comments/1")
                 .then()
@@ -43,6 +46,7 @@ public class JsonPlaceholderTest {
     @Test
     public void verifyAlbumsEndpoint() {
         given()
+                .filter(new AllureRestAssured())
                 .when()
                 .get("/albums/1")
                 .then()
@@ -55,6 +59,7 @@ public class JsonPlaceholderTest {
     @Test
     public void verifyPhotosEndpoint() {
         given()
+                .filter(new AllureRestAssured())
                 .when()
                 .get("/photos/1")
                 .then()
@@ -69,6 +74,7 @@ public class JsonPlaceholderTest {
     @Test
     public void verifyTodosEndpoint() {
         given()
+                .filter(new AllureRestAssured())
                 .when()
                 .get("/todos/1")
                 .then()
@@ -82,6 +88,7 @@ public class JsonPlaceholderTest {
     @Test
     public void verifyUsersEndpoint() {
         given()
+                .filter(new AllureRestAssured())
                 .when()
                 .get("/users/1")
                 .then()
